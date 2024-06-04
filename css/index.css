@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+}
+
+.alfabeto{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color:lightseagreen;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 15px;
+    color: black;
+}
+
+.alfabeto .key{
+    background-color:coral;
+    color: black;
+}
+
+.mainStatus{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 80%;
+    margin: 2% auto;
+    border:black solid 1px;
+}
+
+.mainStatus h1{
+    margin: 0;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.keyboard-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.key-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.large-key {
+    width: 88px; /* 2 keys + 8px margin */
+}
+
+.larger-key {
+    width: 60px; /* 1.5 keys + 4px margin */
+}
+
+.largest-key {
+    width: 104px; /* 2.5 keys + 8px margin */
+}
+
+.extra-large-key {
+    width: 288px; /* 7 keys + 12px margin */
+}
+
+.space-key {
+    width: 200px;
+}
+
+#workText{
+    width: 93%;
+    height: 200px;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#textToCopyInput{
+    background-color: #e0e0e0;
+    color:darkblue;
+    width: 93%;
+    height: 50px;
+    justify-content: center;
+    text-align: left;
+    padding: 0 20px;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30%;
+}
